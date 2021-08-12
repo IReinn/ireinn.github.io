@@ -1,11 +1,8 @@
 BODY	{
-	/* filter: FlipV;      HEY THAT'S UPSIDE DOWN */
 	font-family:verdana, arial, sans-serif;
 	font-size:9pt;
 	background:#4C5844;
 	color:#D8DED3;
-	
-	/* color:#A0AA95; */
 	line-height:11px;
 	margin: 0px 0px 0px 0px ; \\ top right bottom left
 	scrollbar-face-color: #4C5844;
@@ -21,8 +18,6 @@ BODY.forum	{
 	font-size:9pt;
 	background:#4C5844;
 	color:#D8DED3;
-	
-	/* color:#A0AA95; */
 	line-height:11px;
 	margin: 0px 8% 0px 8% ; \\ top right bottom left
 	scrollbar-face-color: #4C5844;
@@ -79,7 +74,6 @@ H1	{
 	color:white;
 	margin:18px 0px 6px 0px;
 	letter-spacing:0.2em;
-	/* filter:progid:DXImageTransform.Microsoft.Shadow(color=#0000FF,direction=45); */
 	}
 H2	{
 	color:#C4CABE;
@@ -89,7 +83,7 @@ H2	{
 	line-height:18px;
 	margin:0px 0px 0px 0px;
 	padding:0px;
-	letter-spacing:0.1em;
+	/* letter-spacing:0.1em; */
 	}
 H2#afterBox{
 	margin-top:-24px;
@@ -106,6 +100,7 @@ H3	{
 	margin:0px 0px 0px 0px;
 	padding:0px;
 	letter-spacing:0.1em;
+	text-transform:uppercase;
 	}
 P	{
 	margin-top:0px;
@@ -115,11 +110,11 @@ UL	{
 	font-size:10pt;
 	font-weight:normal;
 	color:#D8DED3;
-	line-height:16px;
+	line-height:20px;
 	padding:0px 0 0px 0;
 	margin: 8px 0px 8px 16px ; \\ top right bottom left
 	list-style:image;
-	list-style-image:url(/web/20031112095636im_/http://www.steampowered.com/img/square.gif);
+	list-style-image:url(/web/20040602220822im_/http://steampowered.com/img/square.gif);
 	}
 EM	{
 	color:white;
@@ -130,34 +125,25 @@ SUP	{
 	font-size: 11px;
 	}
 .header{
-	float:left;
+	/* float:left; */
 	padding:0px;
 	background:#000000;
 	margin-bottom:16px;
 	width:100%;
 	}
-.navBar{ /* nav button region */
-	margin-left:100px;
+.navBar{
+	margin-left:64px;
 	position:absolute;
 	top:32px;
 	font-weight:bold;
 	}
 .content{
 	padding:8px 24px 32px 80px;
-	margin:0px 0px 24px 68px;
+	margin-bottom:24px;
+	margin-left:68px;
 	background:#3E4637;
 	line-height:16px;
 	width:70%;
-	}
-.contentpage1{
-	padding:8px 24px 32px 80px;
-	margin:0px 0px 24px 68px;
-	background:#3E4637;
-	line-height:16px;
-	width:70%;
-	background-image:url(/web/20031112095636im_/http://www.steampowered.com/img/shieldguy.gif);
-	background-position:top right;
-	background-repeat:no-repeat;
 	}
 .narrower{
 	padding-right:20%;
@@ -387,11 +373,6 @@ INPUT.submitterDisabled{
 	color:#C4CABE;
 	}
 
-
-
-
-
-
 .linky	{
 	cursor: hand;
 	}
@@ -442,14 +423,14 @@ TABLE.statusGraph{
 	cell-spacing:0px;
 	cell-padding:0px;
 	/* width:100%;    this should be variable */
-	height:6px;
+	height:4px;
 	margin:4px 0px 0px 0px;
 	}
 TD.CurrentLoad {
 	background:#BFBA50;
 	}
 TD.AvailableBytesPerSecond {
-	background:#282E22;
+	background:black;
 	}
 TD.DifferenceFromFastestServer {
 	background:#444E3D;
